@@ -22,14 +22,18 @@ body {
     margin-left: 20px;
 
 }
+
+
 .navi {
     background-color: rgb(144, 192, 144);
     width: 100%;
     height: auto;
+    text-align: right;
 }
 
 .navi > ul {
     list-style: none;
+  
       
 }
 
@@ -56,24 +60,37 @@ li > a {
 .content > h3 {
     font-size: 37px;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0%;
     color: rgb(69, 83, 69);
+    margin:1% 0%;
+    
 }
+
+.content > h2 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    
+}
+
 .content > img {
     width: 100%;
     height: auto;
     margin-top: 0%;
+    margin-bottom: 10px;
     
 }
 
 .list {
+    list-style: none;
     font-size: 1.2em;
     color: yellow;
+    
 }
 
 .list1 {
     font-size: 1.2em;
     color: white;
+  
 }
 
 
